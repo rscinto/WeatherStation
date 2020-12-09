@@ -5,6 +5,8 @@ This station uses a small magnet to trip a reed sensor everytime the wind blows 
 
 ![Maths](pictures/maths.PNG)
 
+_Anemometer Cirumference is measured by the radius of the **magnet's** spin_
+
 To calibrate the anemometer the __speedtest.py__ program can be used, where you can replace "tire" with a revolving object of a know speed. I had a DC motor, but did not know it's true speed to my calibration test was flawed, but the theory is there and the maths is sound. 
 
 I initially tried a IR sensor to detect the spin, but once the top of the assembly was closed, the inside would equalize to on ambient temperature. Without a change in temperature to detect, the sensor "failed" in its purpose. The reed and magnet duo worked just as intended. 
