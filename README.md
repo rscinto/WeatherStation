@@ -10,6 +10,8 @@ _Anemometer Cirumference is measured by the radius of the **magnet's** spin_
 Watch a test in action!
 https://youtu.be/fI_jUFqnNJo
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fI_jUFqnNJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 To calibrate the anemometer the __speedtest.py__ program can be used, where you can replace "tire" with a revolving object of a know speed. I had a DC motor, but did not know it's true speed to my calibration test was flawed, but the theory is there and the maths is sound. 
 
 I initially tried a IR sensor to detect the spin, but once the top of the assembly was closed, the inside would equalize to on ambient temperature. Without a change in temperature to detect, the sensor "failed" in its purpose. The reed and magnet duo worked just as intended. 
