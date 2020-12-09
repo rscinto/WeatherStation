@@ -8,20 +8,20 @@ I would like to give credit to this creator for making the the Anemometer.
 https://www.thingiverse.com/thing:2875873 
 Thank you. 
 
-![Anemometer](https://github.com/rscinto/WeatherStation/tree/main/pictures/PXL_20201119_045906194.jpg?raw=true)
+![Anemometer](https://github.com/rscinto/WeatherStation/tree/main/pictures/PXL_20201119_045906194.jpg)
 
 * Fan Mount
 I would like to give credit the this creator for making a 30mm fan mount for the Raspberry Pi. 
 https://www.thingiverse.com/thing:3768077
 Thank you. 
 
-![Fan Mount](https://github.com/rscinto/WeatherStation/tree/main/pictures/PXL_20201209_054719347.jpg?raw=true)
+![Fan Mount](https://github.com/rscinto/WeatherStation/tree/main/pictures/PXL_20201209_054719347.jpg)
 
 * Case
 Here is my box that houses the Raspbery Pi. It's a bit thin and should be kept out of the sun. My green house has killed many of my weather nodes. 
 https://www.thingiverse.com/thing:4679757
 
-![Case](https://github.com/rscinto/WeatherStation/pictures/PXL_20201208_230936668.jpg?raw=true)
+![Case](https://github.com/rscinto/WeatherStation/pictures/PXL_20201208_230936668.jpg)
 
 
 # Dependencies
