@@ -71,3 +71,27 @@ sudo python setup.py install
 sudo apt-get install pigpiod
 
 ```
+
+
+# Components 
+
+*__Adafruit Perma-Proto 40-Pin Raspberry Pi Breadboard PCB Kit - with 2x20 Header__
+
+https://www.adafruit.com/product/4354?gclid=Cj0KCQiA5bz-BRD-ARIsABjT4nhGM9xaGyWtDzdf_XIgJl1JtObSrcgb2qiX5TxGm9k6t9yMJNSTdk4aAgSFEALw_wcB
+
+*__DHT11 Temperature Humidity Sensor Module Digital Temperature Humidity Sensor 3.3V-5V__
+
+https://www.amazon.com/Temperature-Humidity-Digital-3-3V-5V-Raspberry/dp/B07WT2HJ4F/ref=sr_1_2?dchild=1&keywords=dht11+raspberry+pi&qid=1607494650&sr=8-2
+
+*__I2C IIC 12864 128X64 Pixel OLED LCD Display__
+
+https://www.amazon.com/gp/product/B076PNP2VD/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1&fpw=alm
+
+
+*__KY-021 Mini Magnetic Reed__
+
+https://www.amazon.com/KY-021-Magnetic-Arduino-Starters-Compatible/dp/B089FDXBSL/ref=sr_1_2?dchild=1&keywords=KY-021&qid=1607494785&sr=8-2
+
+*__Magnet__
+
+https://www.amazon.com/Deryun-Refrigerators-Magnets-Fridge-Whiteboard/dp/B0782VHLN8/ref=sr_1_18?crid=233DFTPH1FKZP&dchild=1&keywords=small+magnet&qid=1607494850&sprefix=small+magnet%2Caps%2C239&sr=8-18
