@@ -1,11 +1,14 @@
 # WeatherStation
 This is a simple weather station that will detect wind speed, temperature and humidity using a Raspberry Pi. 
 
-This station uses a small magnet to trip a reed sensor everytime the wind blows the top of the anemometer. Once the sensor is tripped a timer starts. When there has been 25 trips, a certain distance has been traveled by the magnet. That distance is divided by the ammount of time lasped between the 1st and 25th sensor trip. This then yields the speed of the wind. 
+This station uses a small magnet to trip a reed sensor everytime the wind blows the top of the anemometer. Once the sensor is tripped the time is recorded. When there have been 25 trips, a certain distance has been traveled by the magnet. That distance is divided by the ammount of time lasped between the 1st and 25th sensor trip. This then yields the speed of the wind. 
 
 ![Maths](pictures/maths.PNG)
 
 _Anemometer Cirumference is measured by the radius of the **magnet's** spin_
+
+Watch a test in action!
+https://youtu.be/fI_jUFqnNJo
 
 To calibrate the anemometer the __speedtest.py__ program can be used, where you can replace "tire" with a revolving object of a know speed. I had a DC motor, but did not know it's true speed to my calibration test was flawed, but the theory is there and the maths is sound. 
 
