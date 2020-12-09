@@ -1,11 +1,15 @@
 # WeatherStation
 This is a simple weather station that will detect wind speed, temperature and humidity using a Raspberry Pi. 
 
+The final program is in test7.py. There are also tests for the DHT11 sensor, minireed sensor and LED. This Anemometer has not been calibrated yet and it if the DHT11 sensor is placed in the housing with the reed sensor, temperatures may reported higher than actual conditions. To ensure that the whole assembly does not overheat and melt, reflective tape should be wrapped around the housing and on the anemometer or a heat resistant material should be used. 
+
+Future add-ons will be to integrate a SQL database and a phone app to get historic data. It may be possible to integrate a barometer into the system to help an AI possibly forecast the weather. 
+
 # 3D Printables
 
 * __Anemometer__
 
-I would like to give credit to this creator for making the the Anemometer. 
+I would like to give credit to this creator for making the Anemometer. 
 https://www.thingiverse.com/thing:2875873 
 Thank you. 
 
@@ -13,7 +17,7 @@ Thank you.
 
 * __Fan Mount__
 
-I would like to give credit the this creator for making a 30mm fan mount for the Raspberry Pi. 
+I would like to give credit to this creator for making the 30mm fan mount for the Raspberry Pi. 
 https://www.thingiverse.com/thing:3768077
 Thank you. 
 
@@ -95,3 +99,7 @@ https://www.amazon.com/KY-021-Magnetic-Arduino-Starters-Compatible/dp/B089FDXBSL
 *__Magnet__
 
 https://www.amazon.com/Deryun-Refrigerators-Magnets-Fridge-Whiteboard/dp/B0782VHLN8/ref=sr_1_18?crid=233DFTPH1FKZP&dchild=1&keywords=small+magnet&qid=1607494850&sprefix=small+magnet%2Caps%2C239&sr=8-18
+
+*__Raspberry Pi 30mm fan and heat sinks__
+
+https://www.amazon.com/Easycargo-Raspberry-Heatsink-Cooling-Cooler/dp/B07MK6L64S/ref=sr_1_10?dchild=1&keywords=30mm+fan+raspberry+pi+heatsink&qid=1607495047&sr=8-10
