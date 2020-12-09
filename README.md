@@ -3,25 +3,25 @@ This is a simple weather station that will detect wind speed, temperature and hu
 
 # 3D Printables
 
-## Anemometer
+* Anemometer
 I would like to give credit to this creator for making the the Anemometer. 
 https://www.thingiverse.com/thing:2875873 
 Thank you. 
 
-![Alt text](WeatherStation/pictures/PXL_20201119_045906194.jpg?raw=true "Anemometer")
+![alt text](https://github.com/rscinto/WeatherStation/tree/main/picturesPXL_20201119_045906194.jpg?raw=true "Anemometer")
 
-## Fan Mount
+* Fan Mount
 I would like to give credit the this creator for making a 30mm fan mount for the Raspberry Pi. 
 https://www.thingiverse.com/thing:3768077
 Thank you. 
 
-![Alt text](WeatherStation/pictures/PXL_20201209_054719347.jpg?raw=true "Fan Mount")
+![alt text](https://github.com/rscinto/WeatherStation/tree/main/picturesPXL_20201209_054719347.jpg?raw=true "Fan Mount")
 
-## Case
+* Case
 Here is my box that houses the Raspbery Pi. It's a bit thin and should be kept out of the sun. My green house has killed many of my weather nodes. 
 https://www.thingiverse.com/thing:4679757
 
-![Alt text](WeatherStation/pictures/PXL_20201208_230936668.jpg?raw=true "Case")
+![alt text](https://github.com/rscinto/WeatherStation/tree/main/picturesPXL_20201208_230936668.jpg?raw=true "Case")
 
 
 # Dependencies
