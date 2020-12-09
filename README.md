@@ -3,21 +3,24 @@ This is a simple weather station that will detect wind speed, temperature and hu
 
 # 3D Printables
 
-* Anemometer
+* __Anemometer__
+
 I would like to give credit to this creator for making the the Anemometer. 
 https://www.thingiverse.com/thing:2875873 
 Thank you. 
 
 ![Anemometer](pictures/PXL_20201119_045906194.jpg)
 
-* Fan Mount
+* __Fan Mount__
+
 I would like to give credit the this creator for making a 30mm fan mount for the Raspberry Pi. 
 https://www.thingiverse.com/thing:3768077
 Thank you. 
 
 ![Fan Mount](pictures/PXL_20201209_054719347.jpg)
 
-* Case
+* __Case__
+
 Here is my box that houses the Raspbery Pi. It's a bit thin and should be kept out of the sun. My green house has killed many of my weather nodes. 
 https://www.thingiverse.com/thing:4679757
 
@@ -25,6 +28,7 @@ https://www.thingiverse.com/thing:4679757
 
 
 # Dependencies
+```
 sudo apt-get update
 
 sudo apt-get upgrade
@@ -66,4 +70,4 @@ sudo python setup.py install
 
 sudo apt-get install pigpiod
 
-
+```
