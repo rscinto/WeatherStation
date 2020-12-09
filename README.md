@@ -5,7 +5,7 @@ This station uses a small magnet to trip a reed sensor everytime the wind blows 
 
 ![Maths](pictures/maths.PNG)
 
-_Anemometer Cirumference is measured by the radius of the **magnet's** spin_
+_Anemometer Cirumference is measured using the radius of the **magnet's** spin_
 
 Watch a test in action!
 https://youtu.be/fI_jUFqnNJo
