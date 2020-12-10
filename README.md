@@ -1,7 +1,7 @@
 # WeatherStation
 This is a simple weather station that will detect wind speed, temperature and humidity using a Raspberry Pi. 
 
-This station uses a small magnet to trip a reed sensor everytime the wind blows the top of the anemometer. Once the sensor is tripped the time is recorded. When there have been 25 trips, a certain distance has been traveled by the magnet. That distance is divided by the ammount of time lasped between the 1st and 25th sensor trip. This then yields the speed of the wind. 
+This station uses a small magnet to trip a reed sensor everytime the wind blows the top of the anemometer. Once the sensor is tripped the time is recorded. When there has been 25 trips, a certain distance has been traveled by the magnet. That distance is divided by the ammount of time elasped between the 1st and 25th sensor trip. This then yields the speed of the wind. 
 
 ![Maths](pictures/maths.PNG)
 
@@ -11,11 +11,11 @@ Watch a test in action!
 https://youtu.be/fI_jUFqnNJo
 
 
-To calibrate the anemometer the __speedtest.py__ program can be used, where you can replace "tire" with a revolving object of a know speed. I had a DC motor, but did not know it's true speed to my calibration test was flawed, but the theory is there and the maths is sound. 
+To calibrate the anemometer the __speedtest.py__ program can be used, where you can replace "tire" with a revolving object of a know speed. I had a DC motor but I did not know its true speed so my calibration test was flawed. The theory is there though and the math is sound. 
 
-I initially tried a IR sensor to detect the spin, but once the top of the assembly was closed, the inside would equalize to on ambient temperature. Without a change in temperature to detect, the sensor "failed" in its purpose. The reed and magnet duo worked just as intended. 
+I initially tried a IR sensor to detect the spin, but once the top of the assembly was closed the inside would equalize to on ambient temperature. Without a change in temperature to detect, the sensor "failed" in its purpose. The reed and magnet duo worked just as intended. 
 
-The final program is in __test7.py__. There are also tests for the DHT11 sensor, minireed sensor and LED. This Anemometer has not been calibrated yet and it if the DHT11 sensor is placed in the housing with the reed sensor, temperatures may reported higher than actual conditions. To ensure that the whole assembly does not overheat and melt, reflective tape should be wrapped around the housing and on the anemometer or a heat resistant material should be used. 
+The final program is in __test7.py__. There are also tests for the DHT11 sensor, minireed sensor and LED. This Anemometer has not been calibrated yet and it if the DHT11 sensor is placed in the housing with the reed sensor the temperatures may reported higher than actual conditions. To ensure that the whole assembly does not overheat and melt, reflective tape should be wrapped around the housing and on the anemometer or a heat resistant material should be used. 
 
 Future add-ons will be to integrate a SQL database and a phone app to get historic data. It may be possible to integrate a barometer into the system to help an AI possibly forecast the weather. 
 
